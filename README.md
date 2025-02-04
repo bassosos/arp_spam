@@ -13,8 +13,8 @@ Used for network security testing and ARP protocol research.
 Download ZIP file or use Git
  $ git clone https://github.com/bassosos/arp_spam
  
-Download and install **Npcap** from [https://npcap.com/](https://npcap.com/dist/npcap-1.80.exe)
-Download **Npcap SDK** from [https://npcap.com/develop.html](https://npcap.com/dist/npcap-sdk-1.13.zip)
+ - Download and install **Npcap** from [https://npcap.com/](https://npcap.com/dist/npcap-1.80.exe)
+ - Download **Npcap SDK** from [https://npcap.com/develop.html](https://npcap.com/dist/npcap-sdk-1.13.zip)
 
 Extract the SDK and configure **Visual Studio**: 
   Add the `Include` folder from the SDK to **Include Directories** 
