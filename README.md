@@ -13,7 +13,7 @@ Used for network security testing and ARP protocol research.
 # Install
 Download ZIP file or use Git
 
- $ git clone https://github.com/bassosos/arp_spam
+ `$ git clone https://github.com/bassosos/arp_spam`
  
  - Download and install **Npcap** from [https://npcap.com/dist/npcap-1.80.exe](https://npcap.com/dist/npcap-1.80.exe)
  - Download **Npcap SDK** from [https://npcap.com/dist/npcap-sdk-1.13.zip](https://npcap.com/dist/npcap-sdk-1.13.zip)
