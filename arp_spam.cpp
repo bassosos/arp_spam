@@ -146,8 +146,9 @@ int main(int argc, char** argv)
 	memcpy(packet.arp_src, SPOOFING_MAC, 6);
 	memcpy(packet.sender_ip, &gateway->sin_addr.S_un.S_un_b, 4);
 
-	cout << asterisk << "You can close console window now.";
+	cout << asterisk << "You can close console window now.\nTo stop the spam, run the following command as administrator in the console: taskkill /im arp_spam.exe /f";
 	FreeConsole();
+	
 	while (true)
 	{
 		int i = 0;
