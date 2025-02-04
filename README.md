@@ -3,6 +3,7 @@ Spamming fake ARP packets to disconnect nodes from the gateway.
 
 A tool for sending ARP spam in a local network.  
 Used for network security testing and ARP protocol research.
+
 **This project is Windows-only.**
 
 **Features:**  
@@ -17,8 +18,8 @@ Download ZIP file or use Git
  - Download **Npcap SDK** from [https://npcap.com/develop.html](https://npcap.com/dist/npcap-sdk-1.13.zip)
 
 Extract the SDK and configure **Visual Studio**: 
-  Add the `Include` folder from the SDK to **Include Directories** 
-  Add the `Lib` folder from the SDK to **Library Directories**
+ - Add the `Include` folder from the SDK to **Include Directories** 
+ - Add the `Lib` folder from the SDK to **Library Directories**
 
 # Start
 Open solution and compile in x64 debug/release mode
